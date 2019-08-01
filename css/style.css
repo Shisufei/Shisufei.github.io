@@ -645,7 +645,7 @@ pre {
   display: block;
   width: 4px;
   background: #eee;
-  top: -3%;
+  top: -7%;
   right: -30px;
   bottom: -3%; }
 
@@ -679,19 +679,19 @@ pre {
   position: absolute;
   top: -3%;
   right: 0;
-  margin-top: -20px;
+  margin-top: -35px;
   line-height: 100%; }
 
 #process .born {
   position: absolute;
-  bottom: -3%;
+  bottom: -5%;
   right: 0;
   margin-bottom: -20px;
   line-height: 100%; }
 
 #process .dot_tp {
   position: absolute;
-  top: -3%;
+  top: -7%;
   right: -35px;
   background-color: transparent;
   height: 15px;
