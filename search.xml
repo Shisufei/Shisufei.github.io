@@ -4,6 +4,25 @@
   
     
     <entry>
+      <title>MutationObserver</title>
+      <link href="/2020/05/14/MutationObserver/"/>
+      <url>/2020/05/14/MutationObserver/</url>
+      
+        <content type="html"><![CDATA[<p><code>MutationObserver</code>接口提供了监视对DOM树所做更改的能力。它被设计为旧的<code>Mutation Events</code>功能的替代品，该功能是<code>DOM3 Events</code>规范的一部分。</p><a id="more"></a><h3 id="构造函数"><a href="#构造函数" class="headerlink" title="构造函数"></a>构造函数</h3><h4 id="MutationObserver"><a href="#MutationObserver" class="headerlink" title="MutationObserver()"></a>MutationObserver()</h4><ul><li>创建并返回一个新的<code>MutationObserver</code>，它会在指定的DOM发生变化时被调用。</li></ul><h3 id="方法"><a href="#方法" class="headerlink" title="方法"></a>方法</h3><h4 id="disconnect"><a href="#disconnect" class="headerlink" title="disconnect()"></a>disconnect()</h4><ul><li>阻止<code>MutationObserver</code>实例继续接收的通知，直到再次调用其<code>observe()</code>方法，该观察者对象包含的回调函数都不会再被调用。</li></ul><h4 id="observe"><a href="#observe" class="headerlink" title="observe()"></a>observe()</h4><ul><li>配置<code>MutationObserver</code>在DOM更改匹配给定选项时，通过其回调函数开始接收通知。</li></ul><h4 id="takeRecords"><a href="#takeRecords" class="headerlink" title="takeRecords()"></a>takeRecords()</h4><ul><li>从<code>MutationObserver</code>的通知队列中删除所有待处理的通知，并将它们返回到<code>MutationRecord</code>对象的新<code>Array</code>中。</li></ul><h3 id="参考资料"><a href="#参考资料" class="headerlink" title="参考资料"></a>参考资料</h3><p><a href="https://developer.mozilla.org/zh-CN/docs/Web/API/MutationObserver" target="_blank" rel="noopener">https://developer.mozilla.org/zh-CN/docs/Web/API/MutationObserver</a></p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> Web API 接口 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>富文本编辑器wangEditor在Vue中的使用</title>
       <link href="/2019/11/08/wangEditor/"/>
       <url>/2019/11/08/wangEditor/</url>
